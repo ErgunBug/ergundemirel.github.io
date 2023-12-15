@@ -1,0 +1,121 @@
+.Logo {
+    width: 100;
+    float: left;
+}
+
+.Pro {
+    width: 85;
+    float: right;
+}
+
+.abt {
+    width: 85;
+    float: right;
+}
+
+.kont {
+    width: 85;
+    float: right;
+}
+
+.intro {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    border: 5px solid black;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+}
+
+.movie {
+    width: 550;
+    float: left;
+    margin-left: 450;
+}
+
+.motext {
+    margin-right: 450;
+    
+}
+
+.links {
+    float: right;
+    margin-top: 23;
+    font-size: 20;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.kon {
+    margin-right: 45px;
+}
+
+.abou {
+    margin-right: 45px;
+}
+
+.proj {
+    margin-right: 10;
+    color: black;
+}
+
+.kon:hover {
+    color: black;
+}
+
+.abou:hover {
+    color: black;
+}
+
+.proj:hover {
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: darkred;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+    font-size: 20;
+}
+
+nav .Logo,
+footer .Logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .Logo a,
+footer .Logo a {
+    margin-left: 8;
+}
+
+.Logo {
+    width: 100;
+}
+
+nav ul,
+footer .top ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}

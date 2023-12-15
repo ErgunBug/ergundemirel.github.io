@@ -1,0 +1,142 @@
+.Logo {
+    width: 100;
+    float: left;
+}
+
+.Pro {
+    width: 85;
+    float: right;
+}
+
+.abt {
+    width: 85;
+    float: right;
+}
+
+.kont {
+    width: 85;
+    float: right;
+}
+
+body {
+    background-color: darkred;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.intro {
+    font-size: 30;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 10;
+}
+
+.Ergun {
+    margin-top: 110;
+    width: 200;
+    border-radius: 55%;
+}
+
+.me {
+    font-size: 20;
+}
+.About button{
+    margin-top: 15;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 14px 24px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 20;
+    margin-left: 845;
+    transition: color 0.3s ease;
+}
+
+.About button:hover {
+    color: black;
+}
+
+.links {
+    float: right;
+    margin-top: 23;
+    font-size: 20;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.kon {
+    margin-right: 45px;
+}
+
+.abou {
+    margin-right: 45px;
+    color: black;
+}
+
+.proj {
+    margin-right: 10;
+}
+
+.kon:hover {
+    color: black;
+}
+
+.abou:hover {
+    color: white;
+}
+
+.proj:hover {
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: darkred;
+    top: 0;
+    position: sticky;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+    font-size: 20;
+}
+
+nav .Logo,
+footer .Logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .Logo a,
+footer .Logo a {
+    margin-left: 8;
+}
+
+.Logo {
+    width: 100;
+}
+
+nav ul,
+footer .top ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
